@@ -61,7 +61,7 @@ class LoginController extends Controller
                 cache()->put($myIp, BLOCK_THREE_ATTEMPT, BLOCK_THREE_ATTEMPT);
             }
 
-            if (cache()->get($key) == 6) {
+            if (cache()->get($key) === 6) {
                 cache()->put($myIp, BLOCK_SIX_ATTEMPT, BLOCK_SIX_ATTEMPT);
                 cache()->forget($key);
             }
