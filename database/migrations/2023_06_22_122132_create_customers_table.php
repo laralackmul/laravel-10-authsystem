@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('avatar_path');
             $table->string('avatar_name');
             $table->string('public_link')->nullable();
-            $table->boolean('status')->default(0);           
+            $table->boolean('status')->default(0)->comment("INACTIVE = 0; ACTIVE = 1; DELETED = 2;");
             $table->rememberToken();
             $table->timestamps();
         });
