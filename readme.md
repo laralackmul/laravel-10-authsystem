@@ -12,10 +12,10 @@ Laravel 10.10 or later
 ### License
 GPLv2 or later
 
-### Admin Info
-Url : YourDomain/admin
-User : admin@email.com
-Password : admin123
+### Admin Info:
+__Url :__ YourDomain/admin
+__User :__ admin@email.com
+__Password :__ admin123
 
 
 ### Instructions:
