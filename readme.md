@@ -20,7 +20,7 @@ __Password :__ admin123
 
 ### Instructions:
 
-* __Step 1:__ Download the files.
+* __Step 1:__ Clone the source( git clone https://github.com/laralackmul/laravel-10-authsystem.git).
 
 * __Step 2:__ Setup Database
 
